@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>DEMS School Election Portal</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="vote.js"></script>
+</head>
+<body>
+	<h1><marquee behavior="alternate">WELCOME TO DEMS ELECTIONS 2023-24</marquee></h1>
+	<hr>
+	<button id="b" onclick="start()"><h2><b>Start Voting</b></h2></button>
+	<button id="br" type="Button" onclick="CheckR()"><h2><b>Check Result</b></h2></button>	
+	<br><br>
+
+	<center><h1>Head Boy</h1></center>
+	<div class="voter1" id="voter1">
+		<img id="img1" src="Samarth.jpg">
+		<button id="b1" onclick="Vote1()" style="margin-left: 310px; margin-top: 60px; background-color: blue;" ><h2><b>Vote</b></h2></button></h4><br><br>
+		<label id="l1" ><h2><b>Samarth Thombare</b></h2></label>
+	</div>
+	
+	<div class="voter2" id="voter2">
+		<img id="img2" src="Ashwin.jpg">
+		<button id="b2" onclick="Vote2()" style="margin-left: 670px;	margin-top: 25px; background-color: rgb(41, 220, 41);"><h2><b>Vote</b></h2></button></h4><br><br>
+		<label id="l2"><h2><b>Ashwin Dhale</b></h2></label>
+	</div>
+
+	<div class="voter3" id="voter3">
+		<img id="img3" src="Chinmay.jpg">
+		<button id="b3" onclick="Vote3()" style="margin-left: 1020px; margin-top: -10px; background-color: red;"><h2><b>Vote</b></h2></button></h4><br><br>
+		<label id="l3"><h2><b>Chinmay Shiralkar</b></h2></label>
+	</div>
+
+	<div class="voter4" id="voter4">
+		<img id="img4" src="Aryan.jpg">
+		<button id="b4" onclick="Vote4()" style="margin-left: 1350px; margin-top: -45px; background-color: yellow;"><h2><b>Vote</b></h2></button></h4><br><br>
+		<label id="l4"><h2><b>Aryan Kamble</b></h2></label>
+	</div>
+	<br><br><br>
+	<center><h1>Head Girl</h1></center>
+	<div class="voter5" id="voter5">
+		<img id="img5" src="Samrudhi.jpg"> 
+		<button id="b5" onclick="Vote5()" style="margin-left: 310px; margin-top: 60px; background-color: blue;"><h2><b>Vote</b></h2></button></h4><br><br>
+		<label id="l5"><b><h2>Samrudhi Kale</h2></b></label>
+	</div>
+
+	<div class="voter6" id="voter6">
+		<img id="img6" src="Vaishnavi.jpg">
+		<button id="b6" onclick="Vote6()" style="margin-left: 670px; margin-top: 25px; background-color: rgb(41, 220, 41);"><h2><b>Vote</b></h2></button></h4><br><br>
+		<label id="l6"><h2><b>Vaishnavi Shinde</b></h2></label>
+	</div>
+
+	<div class="voter7" id="voter7">
+		<img id="img7" src="Sanika.jpg">
+		<button id="b7" onclick="Vote7()" style="margin-left: 1020px; margin-top: -10px; background-color: red;"><h2><b>Vote</b></h2></button></h4><br><br>
+		<label id="l7"><h2><b>Sanika Dhapte</b></h2></label>
+	</div>
+
+	<div class="voter8" id="voter8">
+		<img id="img8" src="Swaranjali.jpg">
+		<button id="b8" onclick="Vote8()" style="margin-left: 1350px; margin-top: -45px; background-color: yellow;"><h2><b>Vote</b></h2></button></h4><br><br>
+		<label id="l8"><h2><b>Swaranjali Dhaytonde</b></h2></label>
+	</div>
+	<br><br><br>
+	<div class="popup" id="popup"><br><br><br>
+		<h1 id="Resultb"><b>Result=?</b></h1>
+		<h1 id="Resultg"><b>Result=?</b></h1>
+		<img src="close.png" onclick="closedialoge()">
+		<button id="revote"  onclick="revote()"><b>Revote</b></button>
+		<button id="bclose" onclick="CheckRclose()"><b>Logout</b></button>
+	</div>
+	
+	
+</table>
+</body>
+
+</html>
